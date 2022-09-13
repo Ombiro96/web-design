@@ -7,11 +7,13 @@
     <title>Home</title>
     <link rel="stylesheet" href="./css/home.css">
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <!--iconscout for the menu icon and close menu icon-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicorn.css" >
 </head>
 <body>
     <nav>
-        <div class="container nav_container"></div>
-        <a href="home.html" target="_self"><h4>OMBIRO</h4></a>
+        <div class="container nav_container">
+        <a href="home.html" target="_self"><img src="./images/logo.png" alt="logo" id="logo_el"></a>
         <ul class="nav_menu">
         <li><a href="home.html" target="_self">Home</a></li>
         <li><a href="about.html" target="_self">About</a></li>
@@ -22,7 +24,22 @@
         </ul>
         <button id="open-menu-button"><i class="uil uil-bars"></i></button>
         <button id="close-menu-button"><i class="uil uil-multiply"></i></button>
+    </div>
         </nav>
+        <header>
+            <div class="container header_container">
+                <div class="header_left">
+                    <h1>City's Heart Cry Ministries</h1>
+                    <p>
+                        Building the lives and spirits of orphans and abandoned children in rural Kenya
+                    </p>
+                    <a href="donate.html" class="btn btn-primary">Donate</a>
+                </div>
+                <div class="header_right">
+                    <img src="./images/header.png" alt="ministries image">
+                </div>
+            </div>
+        </header>
     <script src="home.js"></script>
 </body>
 </html>
